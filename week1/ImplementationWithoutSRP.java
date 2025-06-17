@@ -16,6 +16,7 @@ public class ImplementationWithoutSRP {
         public Employee(String name, int empId) {
             this.name = name;
             this.empId = empId;
+            
         }
 
         // Responsibility 1: Get employee details
