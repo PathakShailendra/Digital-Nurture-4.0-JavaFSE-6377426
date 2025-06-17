@@ -29,6 +29,7 @@ public class ImpmentationWithLSP {
 
         // No fly method needed — so LSP is not broken
     }
+    
 
 
         public static void main(String[] args) {
