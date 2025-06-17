@@ -17,6 +17,7 @@ public class ImplementationWithOCP {
         }
     }
 
+    
     static class UpiPayment implements Payment {
         public void pay() {
             System.out.println("Processing UPI Payment...");
