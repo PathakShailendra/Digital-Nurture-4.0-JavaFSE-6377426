@@ -16,6 +16,7 @@ public class ImplementationWithSRP {
         public String getDetails() {
             return "Name: " + name + ", ID: " + empId;
         }
+        
 
         // Getter for name (used by other classes like EmailService)
         public String getName() {
