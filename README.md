@@ -26,7 +26,7 @@ Each principle has:
 ## ✅ Implemented Principles
 
 ### 1️⃣ Single Responsibility Principle (SRP)
-  
+
 - `ImplementationWithSRP.java` ✅  
 - `ImplementationWithoutSRP.java` ❌  
 - `Main.java` – demonstrates clean vs. messy responsibilities
@@ -65,3 +65,42 @@ Each principle has:
 
 ---
 
+# 📘 Design Patterns – Creational (Part of Week 1)
+
+In addition to SOLID principles, the following **creational design patterns** have been implemented:
+
+---
+
+### 🧩 Singleton Pattern
+
+- 📄 `ImplementatingTheSingletonPattern.java`
+- 🎯 Ensures that only **one instance** of a class is created
+- ✅ Common in logging, database, config manager, etc.
+
+**Key Concepts Used:**
+- Private constructor
+- Static instance
+- Lazy initialization (`getInstance()` method)
+
+**Expected Output:
+Singleton instance created.
+Hello from Singleton!
+true
+
+
+---
+
+### 🧩 Factory Method Pattern
+
+- 📄 `ImplementingTheFactoryMethodPattern.java`
+- 🎯 Returns object based on input without exposing creation logic
+- ✅ Helps in decoupling object creation from client logic
+
+**Key Concepts Used:**
+- Interface: `Shape`
+- Factory class: `ShapeFactory`
+- Implementations: `Circle`, `Rectangle`
+
+**Expected Output:
+Drawing Circle...
+Drawing Rectangle...
