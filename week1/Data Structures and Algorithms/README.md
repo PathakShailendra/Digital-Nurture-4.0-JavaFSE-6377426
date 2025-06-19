@@ -1,4 +1,4 @@
-#Data Structures & Algorithms (Java FSE | Deep Skilling Phase)
+### Data Structures & Algorithms (Java FSE | Deep Skilling Phase)
 
 Welcome to the foundation of problem-solving: **Data Structures & Algorithms (DSA)**.  
 This module builds the thinking pattern for writing **efficient, scalable, and optimal** code.
