@@ -104,3 +104,40 @@ true
 **Expected Output:
 Drawing Circle...
 Drawing Rectangle...
+
+---
+
+#### 📘 Analysis of Algorithms (Theory)
+- Introduction to Algorithms & Need for DSA
+- Types of Data Structures (Linear, Non-linear, Hash-based, etc.)
+- Notations: Time Complexity & Space Complexity
+- Framework for analyzing algorithms using:
+  - Loop counting
+  - Recursion tree
+- Asymptotic Notation:
+  - **Big O (O)** – Worst-case analysis
+  - **Omega (Ω)** – Best-case analysis
+  - **Theta (Θ)** – Average-case analysis
+- Best, Average, and Worst-case scenarios with examples
+- Time & Space Complexity of:
+  - Iterative algorithms (e.g., loop-based sum)
+  - Recursive algorithms (e.g., factorial, sum recursion)
+
+📚 Referenced from: [GeeksForGeeks – Design and Analysis of Algorithms](https://www.geeksforgeeks.org/designand-analysis-of-algorithms/)
+
+---
+
+#### 🔢 Sorting Algorithms Implemented & Analyzed
+
+| Algorithm      | Best Case | Average Case | Worst Case | Space Complexity |
+|----------------|-----------|--------------|------------|------------------|
+| **Bubble Sort**    | O(n)      | O(n²)        | O(n²)      | O(1)             |
+| **Insertion Sort** | O(n)      | O(n²)        | O(n²)      | O(1)             |
+| **Heap Sort**      | O(n log n)| O(n log n)   | O(n log n) | O(1)             |
+| **Quick Sort**     | O(n log n)| O(n log n)   | O(n²)      | O(log n)         |
+| **Merge Sort**     | O(n log n)| O(n log n)   | O(n log n) | O(n)             |
+
+✅ Implemented all above sorting algorithms with:
+- Code in Java
+
+
