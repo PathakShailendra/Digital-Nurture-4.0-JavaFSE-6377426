@@ -140,4 +140,29 @@ Drawing Rectangle...
 ✅ Implemented all above sorting algorithms with:
 - Code in Java
 
+---
+
+### 📘 Topics Covered:
+- Arrays  
+  - Array Traversal, Array representation in memory, Measuring Time Complexity  
+  - Searching & Traversal, When to use Arrays  
+  🔗 [GeeksForGeeks – Arrays](https://www.geeksforgeeks.org/arraydata-structure-guide/)
+
+- Linked List  
+  - Singly Linked List, Circular Singly Linked List, Doubly Linked List, Circular Doubly Linked List  
+  - Search, Insert, Traverse, Delete operations with Time Complexity  
+  🔗 [GeeksForGeeks – Linked List in Java](https://www.geeksforgeeks.org/linked-listin-java/)
+
+- Searching Algorithms  
+  - Linear Search, Binary Search  
+  🔗 [GeeksForGeeks – Searching Algorithms](https://www.geeksforgeeks.org/searchingalgorithms/#basics-of-searchingalgorithms)
+
+---
+
+### 🛠️ Hands-On Exercises Completed:
+- **Exercise 2:** E-commerce Platform Search Function  
+- **Exercise 7:** Financial Forecasting  
+
+✅ **Week 1 learning completed successfully.**
+
 
