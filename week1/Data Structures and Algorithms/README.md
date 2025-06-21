@@ -136,3 +136,31 @@ for(int i = 0; i < n; i++) {
 - Number guessing games
 - Efficient lookup when random access is possible
 
+# 🛒 E-commerce Platform Search Function
+
+This project is a solution to **Exercise 2: E-commerce Platform Search Function**, provided as part of the **Cognizant Hands-on Programming Practice**.
+
+---
+
+## 📌 Problem Statement
+
+Design and implement a **case-insensitive product search functionality** for an e-commerce platform. Given a list of product names and a search keyword, the program should return a list of matching product names. A product is considered a match if the keyword appears anywhere in its name, regardless of case.
+
+---
+
+## ✅ Features
+
+- Accepts a list of product names and a keyword to search.
+- Case-insensitive matching.
+- Supports **partial keyword match** (e.g., `mo` will match `Mobile`, `Mouse`, `microphone`).
+- Output is returned in **alphabetically sorted order** for better readability.
+
+---
+
+## 💡 Example
+
+**Input:**
+
+Products: ["Mobile", "Laptop", "Mouse", "Charger", "Headphones", "microphone"]
+Keyword: "mo"
+
