@@ -164,3 +164,31 @@ Design and implement a **case-insensitive product search functionality** for an 
 Products: ["Mobile", "Laptop", "Mouse", "Charger", "Headphones", "microphone"]
 Keyword: "mo"
 
+# 📈 Financial Forecasting – Monthly Revenue Analyzer
+
+This project is a solution to **Exercise 7: Financial Forecasting**, provided as part of the **Cognizant Hands-on Java Practice**.
+
+---
+
+## 📌 Problem Statement
+
+Design and implement a program that analyzes a company’s monthly revenue data. The program calculates and displays the following metrics:
+
+- 📊 Average Monthly Revenue
+- 📈 Highest Monthly Revenue
+- 📉 Lowest Monthly Revenue
+
+This is useful for financial forecasting and business performance evaluation.
+
+---
+
+## 💡 Example
+
+### ✅ Input:
+
+Monthly Revenues: [10000.0, 12000.0, 11000.5, 9500.0, 13000.0, 12500.0, 14000.0, 13500.0, 15000.0, 14500.0, 15500.0, 16000.0]
+
+## ✅ Week 1 Status
+
+**Week 1 Learning Completed**  
+Successfully completed all hands-on exercises and Java practice tasks as part of the Week 1 curriculum.
