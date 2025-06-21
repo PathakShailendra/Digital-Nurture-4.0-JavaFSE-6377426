@@ -65,3 +65,74 @@ Together, DSA helps in solving real-world problems effectively using code.
 for(int i = 0; i < n; i++) {
     System.out.println("Hi");
 }
+
+## 🧾 Arrays in Data Structures
+
+### 📌 Concepts Covered:
+- **Array representation in memory** (contiguous block of memory, 0-based indexing)
+- **Array traversal** using loops
+- **Time complexity of traversal**: O(n)
+- **Searching in arrays**:
+  - 🔍 Linear Search – O(n)
+  - 🔎 Binary Search – O(log n) [Only on sorted arrays]
+- **When to use arrays?**
+  - You need **random access** (O(1))
+  - You know the **size beforehand**
+  - You need **cache-friendly, static allocation**
+
+### 🧠 Resources:
+🔗 [Array Guide – GeeksForGeeks](https://www.geeksforgeeks.org/arraydata-structure-guide/)
+
+---
+
+## 🔗 Linked List Variants and Operations
+
+### ✅ Types Implemented:
+| Type                             | Description |
+|----------------------------------|-------------|
+| **Singly Linked List**           | Node points to next node |
+| **Circular Singly Linked List**  | Last node points to head |
+| **Doubly Linked List**           | Node has prev and next pointers |
+| **Circular Doubly Linked List**  | Last node connects back in both directions |
+
+### 📘 Operations Practiced:
+- 🔄 Traverse
+- ➕ Insert at front, end, middle
+- ❌ Delete node (by value, position)
+- 🔍 Search for an element
+
+### ⏱ Time Complexities:
+
+| Operation | Singly LL | Doubly LL | Array |
+|-----------|-----------|-----------|-------|
+| Traverse  | O(n)      | O(n)      | O(n)  |
+| Insert at start | O(1) | O(1)      | O(n)  |
+| Insert at end | O(n)   | O(1)\*    | O(n)  |
+| Delete    | O(n)      | O(1)\*\*   | O(n)  |
+
+> \* If tail is maintained  
+> \*\* If reference to node is given
+
+### 🧠 Resources:
+🔗 [Linked List in Java – GeeksForGeeks](https://www.geeksforgeeks.org/linked-list-in-java/)
+
+---
+
+## 🔍 Searching Algorithms
+
+### 🔸 Linear Search
+- ✅ Simple search in **unsorted array**
+- ✅ Checks each element one by one
+- ⏱ Time Complexity: **O(n)**
+
+### 🔸 Binary Search
+- ✅ Works on **sorted array**
+- ✅ Divide and conquer approach
+- ⏱ Time Complexity: **O(log n)**
+
+### 💡 Binary Search Use Cases:
+- Large sorted datasets (e.g., searching in a dictionary)
+- Number guessing games
+- Efficient lookup when random access is possible
+
+
