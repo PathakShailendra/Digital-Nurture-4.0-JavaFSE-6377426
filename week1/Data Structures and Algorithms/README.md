@@ -67,12 +67,6 @@ for(int i = 0; i < n; i++) {
 
 ---
 
-## 📅 Daily Progress – [DD-MM-YYYY]
-
-### ✅ Topics Covered Today:
-
----
-
 ## 🧾 Arrays in Data Structures
 
 ### 📌 Concepts Covered:
@@ -141,8 +135,4 @@ for(int i = 0; i < n; i++) {
 - Large sorted datasets (e.g., searching in a dictionary)
 - Number guessing games
 - Efficient lookup when random access is possible
-
----
-
-## 🗂️ Folder Structure
 
