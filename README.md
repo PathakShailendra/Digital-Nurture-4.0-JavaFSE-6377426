@@ -67,10 +67,6 @@ Each principle has:
 
 # 📘 Design Patterns – Creational (Part of Week 1)
 
-In addition to SOLID principles, the following **creational design patterns** have been implemented:
-
----
-
 ### 🧩 Singleton Pattern
 
 - 📄 `ImplementatingTheSingletonPattern.java`
@@ -82,11 +78,14 @@ In addition to SOLID principles, the following **creational design patterns** ha
 - Static instance
 - Lazy initialization (`getInstance()` method)
 
-**Expected Output:
+**Expected Output:**
 Singleton instance created.
 Hello from Singleton!
 true
 
+markdown
+Copy
+Edit
 
 ---
 
@@ -101,66 +100,103 @@ true
 - Factory class: `ShapeFactory`
 - Implementations: `Circle`, `Rectangle`
 
-**Expected Output:
+**Expected Output:**
 Drawing Circle...
 Drawing Rectangle...
 
+yaml
+Copy
+Edit
+
 ---
 
-#### 📘 Analysis of Algorithms (Theory)
+### 📘 Analysis of Algorithms (Theory)
+
 - Introduction to Algorithms & Need for DSA
 - Types of Data Structures (Linear, Non-linear, Hash-based, etc.)
 - Notations: Time Complexity & Space Complexity
-- Framework for analyzing algorithms using:
-  - Loop counting
-  - Recursion tree
 - Asymptotic Notation:
-  - **Big O (O)** – Worst-case analysis
-  - **Omega (Ω)** – Best-case analysis
-  - **Theta (Θ)** – Average-case analysis
-- Best, Average, and Worst-case scenarios with examples
-- Time & Space Complexity of:
-  - Iterative algorithms (e.g., loop-based sum)
-  - Recursive algorithms (e.g., factorial, sum recursion)
+  - Big O (O): Worst-case analysis
+  - Omega (Ω): Best-case analysis
+  - Theta (Θ): Average-case analysis
 
-📚 Referenced from: [GeeksForGeeks – Design and Analysis of Algorithms](https://www.geeksforgeeks.org/designand-analysis-of-algorithms/)
+- Analysis Techniques:
+  - Loop counting
+  - Recursion trees
+
+- Complexity Examples:
+  - Iterative sum
+  - Recursive factorial
+
+📚 Ref: [GeeksForGeeks – Design and Analysis of Algorithms](https://www.geeksforgeeks.org/designand-analysis-of-algorithms/)
 
 ---
 
-#### 🔢 Sorting Algorithms Implemented & Analyzed
+### 🔢 Sorting Algorithms Implemented & Analyzed
 
-| Algorithm      | Best Case | Average Case | Worst Case | Space Complexity |
-|----------------|-----------|--------------|------------|------------------|
-| **Bubble Sort**    | O(n)      | O(n²)        | O(n²)      | O(1)             |
-| **Insertion Sort** | O(n)      | O(n²)        | O(n²)      | O(1)             |
-| **Heap Sort**      | O(n log n)| O(n log n)   | O(n log n) | O(1)             |
-| **Quick Sort**     | O(n log n)| O(n log n)   | O(n²)      | O(log n)         |
-| **Merge Sort**     | O(n log n)| O(n log n)   | O(n log n) | O(n)             |
+| Algorithm         | Best Case | Avg Case | Worst Case | Space Complexity |
+|------------------|-----------|----------|------------|------------------|
+| Bubble Sort      | O(n)      | O(n²)    | O(n²)      | O(1)             |
+| Insertion Sort   | O(n)      | O(n²)    | O(n²)      | O(1)             |
+| Heap Sort        | O(n log n)| O(n log n)| O(n log n) | O(1)             |
+| Quick Sort       | O(n log n)| O(n log n)| O(n²)     | O(log n)         |
+| Merge Sort       | O(n log n)| O(n log n)| O(n log n)| O(n)             |
 
-✅ Implemented all above sorting algorithms with:
-- Code in Java
+✅ Implemented in Java with dry-run comments.
 
 ---
 
 ### 📘 Topics Covered:
-- Arrays  
-  - Array Traversal, Array representation in memory, Measuring Time Complexity  
-  - Searching & Traversal, When to use Arrays  
-  🔗 [GeeksForGeeks – Arrays](https://www.geeksforgeeks.org/arraydata-structure-guide/)
 
-- Linked List  
-  - Singly Linked List, Circular Singly Linked List, Doubly Linked List, Circular Doubly Linked List  
-  - Search, Insert, Traverse, Delete operations with Time Complexity  
-  🔗 [GeeksForGeeks – Linked List in Java](https://www.geeksforgeeks.org/linked-listin-java/)
+- **Arrays**
+  - Traversal, Searching, Memory Layout  
+  🔗 [GFG – Arrays](https://www.geeksforgeeks.org/arraydata-structure-guide/)
 
-- Searching Algorithms  
-  - Linear Search, Binary Search  
-  🔗 [GeeksForGeeks – Searching Algorithms](https://www.geeksforgeeks.org/searchingalgorithms/#basics-of-searchingalgorithms)
+- **Linked Lists**
+  - Singly, Doubly, Circular  
+  🔗 [GFG – Linked List](https://www.geeksforgeeks.org/linked-listin-java/)
+
+- **Searching Algorithms**
+  - Linear, Binary  
+  🔗 [GFG – Searching](https://www.geeksforgeeks.org/searchingalgorithms/#basics-of-searchingalgorithms)
 
 ---
 
 ### 🛠️ Hands-On Exercises Completed:
+
 - **Exercise 2:** E-commerce Platform Search Function  
 - **Exercise 7:** Financial Forecasting  
 
 ✅ **Week 1 learning completed successfully.**
+
+---
+
+# 📘 Week 2 – PL/SQL, JUnit5, Mockito, SLF4J Logging
+
+This week focused on unit testing, database programming using PL/SQL, and logging practices with SLF4J.
+
+---
+
+## 🗂️ Exercise Summary
+
+| Topic                        | Module No. | Folder/Package Name           | Exercise Description                                       |
+|-----------------------------|------------|-------------------------------|------------------------------------------------------------|
+| PL/SQL programming          | 1          | PLSQL_Exercises               | Exercise 1: Control Structures                             |
+| PL/SQL programming          | 2          | PLSQL_Exercises               | Exercise 3: Stored Procedures                              |
+| TDD using JUnit5 and Mockito| 1          | 1. JUnit_Basic Testing Exercises| Exercise 1: Setting Up JUnit                              |
+| TDD using JUnit5 and Mockito| 2          | 1. JUnit_Basic Testing Exercises| Exercise 3: Assertions in JUnit                           |
+| TDD using JUnit5 and Mockito| 3          | 1. JUnit_Basic Testing Exercises| Exercise 4: AAA Pattern, Test Fixtures, Setup & Teardown  |
+| TDD using JUnit5 and Mockito| 4          | 3. Mockito exercises           | Exercise 1: Mocking and Stubbing                           |
+| TDD using JUnit5 and Mockito| 5          | 3. Mockito exercises           | Exercise 2: Verifying Interactions                         |
+| SLF4J logging framework     | 1          | 6. SL4J Logging exercises      | Exercise 1: Logging Error Messages and Warning Levels      |
+
+---
+
+### ✅ Week 2 learning completed successfully.
+
+- Explored **Test-Driven Development** with JUnit and Mockito  
+- Wrote unit tests, assertions, mocking techniques  
+- Learned **structured PL/SQL blocks** and procedures  
+- Practiced **logging best practices** using SLF4J  
+
+---
