@@ -200,3 +200,93 @@ This week focused on unit testing, database programming using PL/SQL, and loggin
 - Practiced **logging best practices** using SLF4J  
 
 ---
+
+## 📅 Week 3 - Spring Core, Maven, Spring Boot, Spring Data JPA, and REST
+
+This week focused on building a solid foundation in Spring Core concepts, understanding Maven project setup, diving deeper into Spring Boot, exploring Spring Data JPA with Hibernate, and implementing RESTful APIs.
+
+---
+
+### 🌱 Spring Core and Maven
+
+#### ✅ Exercise 1: Configuring a Basic Spring Application
+- Created a Maven project `LibraryManagement`.
+- Added Spring Core dependencies in `pom.xml`.
+- Configured `applicationContext.xml` with beans for `BookService` and `BookRepository`.
+- Defined service and repository classes.
+- Successfully tested the application with a main class that loaded Spring context.
+
+#### ✅ Exercise 2: Implementing Dependency Injection
+- Implemented setter-based Dependency Injection using Spring's IoC container.
+- Updated XML configuration to wire dependencies.
+- Verified injection by running the application.
+
+#### ✅ Exercise 4: Creating and Configuring a Maven Project
+- Set up a new Maven project and added required Spring dependencies.
+- Configured the Maven Compiler Plugin to support Java 1.8.
+- Ensured project structure aligns with Spring conventions.
+
+---
+
+### 🗃️ Spring Data JPA with Spring Boot & Hibernate
+
+#### ✅ Hands-on 1: Spring Data JPA - Quick Example
+- Created a Spring Boot project `orm-learn` using Spring Initializr.
+- Added dependencies for Spring Data JPA, MySQL Driver, and DevTools.
+- Configured `application.properties` with DB connection and logging properties.
+- Created a `Country` entity class and mapped it to the MySQL `country` table.
+- Implemented `CountryRepository` extending `JpaRepository`.
+- Developed `CountryService` to fetch countries using `findAll()` method.
+- Tested functionality in `OrmLearnApplication` using a custom `testGetAllCountries()` method.
+
+#### ✅ Hands-on 2: Difference Between JPA, Hibernate, and Spring Data JPA
+- **JPA** is a specification for object-relational mapping in Java.
+- **Hibernate** is a popular ORM tool that implements JPA.
+- **Spring Data JPA** provides abstraction and reduces boilerplate over JPA providers like Hibernate.
+
+💡 **Code Comparison:**
+
+- **Hibernate Example:**
+  - Manual transaction and session handling.
+- **Spring Data JPA Example:**
+  - Cleaner code using `JpaRepository` and annotations.
+
+🧩 **Advantages of Spring Data JPA:**
+- Less boilerplate code
+- Built-in CRUD support
+- Easy integration with Spring Boot
+- Better transaction management
+
+> 🔗 References:  
+> [What is the Difference Between Hibernate and Spring Data JPA – DZone](https://dzone.com/articles/what-is-the-difference-between-hibernate-and-sprin-1)  
+> [Introduction to JPA – JavaWorld](https://www.javaworld.com/article/3379043/what-is-jpa-introduction-to-the-java-persistence-api.html)
+
+---
+
+### 🌐 Spring REST using Spring Boot 3
+
+#### ✅ Hands-on: Creating a Spring REST Application
+- Built a Spring Boot REST project using Maven.
+- Defined REST controllers to handle web requests.
+- Developed endpoints for performing CRUD operations.
+- Validated APIs using tools like Postman.
+
+---
+
+### 🛠️ Tech Stack & Tools Used
+- **Languages & Frameworks:** Java, Spring Core, Spring Boot, Spring Data JPA, Hibernate
+- **Database:** MySQL
+- **Tools:** Eclipse IDE, MySQL Workbench, Maven
+- **Concepts Covered:**  
+  - Spring IoC & DI (Setter Injection)  
+  - Maven project structure  
+  - Entity-Relation Mapping  
+  - JPA Repository and Service Layer  
+  - RESTful API Design
+
+---
+
+### ✅ Summary
+
+Week 3 was all about building real-world skills with Spring's core modules and setting up the entire backend structure with Spring Boot, JPA, and REST. From configuring beans and learning dependency injection to fetching real data using Spring Data JPA and building endpoints, this week marks a major milestone in mastering backend development.
+
