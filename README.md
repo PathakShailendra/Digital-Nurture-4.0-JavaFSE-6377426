@@ -201,7 +201,7 @@ This week focused on unit testing, database programming using PL/SQL, and loggin
 
 ---
 
-## 📅 Week 3 - Spring Core, Maven, Spring Boot, Spring Data JPA, and REST
+# 📅 Week 3 - Spring Core, Maven, Spring Boot, Spring Data JPA, and REST
 
 This week focused on building a solid foundation in Spring Core concepts, understanding Maven project setup, diving deeper into Spring Boot, exploring Spring Data JPA with Hibernate, and implementing RESTful APIs.
 
