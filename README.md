@@ -415,3 +415,102 @@ Week 4 was about building **secure, testable, and scalable REST APIs**. From lea
 
 ---
 
+# 📦 Week 5 – Microservices with Spring Boot
+
+This week focused on building **independent microservices** using Spring Boot. We explored how to structure projects using Maven, manage multiple Spring Boot applications, handle port conflicts, and build RESTful APIs in a modular way for scalable development.
+
+---
+
+## 🔧 Hands-On: Creating Microservices for Account and Loan
+
+In this hands-on exercise, we created two Spring Boot-based microservices simulating a banking system:
+
+- ✅ **Account Microservice**  
+- ✅ **Loan Microservice**
+
+Each service is **independent**, with its own Maven configuration (`pom.xml`) and runs on a separate port.
+
+---
+
+## 1️⃣ Account Microservice
+
+✔️ Created using [start.spring.io](https://start.spring.io)  
+✔️ Dependencies:
+- Spring Web
+- Spring Boot DevTools
+
+### 🧪 Endpoint  
+GET /accounts/{number}
+
+bash
+Copy
+Edit
+
+### 📦 Sample Response
+```json
+{
+  "number": "00987987973432",
+  "type": "savings",
+  "balance": 234343
+}
+🔧 No database — returning dummy data as response.
+
+📌 Build & Run Steps
+Used mvn clean package to build the project
+
+Launched application using the main Spring Boot class
+
+Tested using browser/Postman
+
+2️⃣ Loan Microservice
+✔️ Created similarly to the account microservice
+
+🧪 Endpoint
+bash
+Copy
+Edit
+GET /loans/{number}
+📦 Sample Response
+json
+Copy
+Edit
+{
+  "number": "H00987987972342",
+  "type": "car",
+  "loan": 400000,
+  "emi": 3258,
+  "tenure": 18
+}
+🛠 Port Conflict Handling
+Account service used the default port 8080
+
+Configured loan service to run on port 8081 using:
+
+properties
+Copy
+Edit
+# application.properties
+server.port=8081
+🌐 Final Setup
+✅ Account Microservice: http://localhost:8080/accounts/{number}
+
+✅ Loan Microservice: http://localhost:8081/loans/{number}
+
+Both services now run independently on separate ports with dummy data.
+
+📘 Key Learnings
+Difference between monolith and microservices
+
+Creating multiple Spring Boot apps in the same workspace
+
+Handling port conflicts between services
+
+Structuring independent Maven-based REST APIs
+
+Testing endpoints with Postman and browsers
+
+Running multiple Spring Boot apps simultaneously in Eclipse
+
+✅ Summary
+Week 5 was all about modular architecture and creating scalable microservices. From building RESTful endpoints for account and loan services to resolving runtime port issues and understanding microservice independence, this week laid a solid foundation for distributed systems and service orchestration.
+
