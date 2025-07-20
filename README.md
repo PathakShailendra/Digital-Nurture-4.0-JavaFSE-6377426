@@ -447,7 +447,6 @@ Copy
 Edit
 
 ### 📦 Sample Response
-```json
 {
   "number": "00987987973432",
   "type": "savings",
