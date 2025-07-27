@@ -513,3 +513,81 @@ Running multiple Spring Boot apps simultaneously in Eclipse
 ✅ Summary
 Week 5 was all about modular architecture and creating scalable microservices. From building RESTful endpoints for account and loan services to resolving runtime port issues and understanding microservice independence, this week laid a solid foundation for distributed systems and service orchestration.
 
+# 📘 Week 6 – Introduction to React & SPA
+
+This week focused on understanding **Single Page Applications (SPA)** and how **React** plays a major role in building modern web interfaces. We explored setting up a React development environment, creating components, applying styling, and understanding lifecycle methods.
+
+---
+
+## 🎯 Objectives Covered
+
+- Define SPA and compare with MPA
+- Understand React, its working, and features
+- Learn about Virtual DOM
+- Understand React Components – Class and Functional
+- Learn about Component Lifecycle and Styling techniques
+
+---
+
+## 🧪 Hands-On Labs
+
+### 🔹 Hands-On 1: My First React App
+- Created a new React app `myfirstreact` using `create-react-app`.
+- Displayed the message:  
+  `Welcome to the first session of React`  
+- Verified app by running on: `http://localhost:3000`
+
+---
+
+### 🔹 Hands-On 2: Student Management Portal (Class Components)
+- Created a new React app `StudentApp`.
+- Created 3 class components:
+  - `Home`: Home page message.
+  - `About`: About page message.
+  - `Contact`: Contact page message.
+- Rendered all components from `App.js`.
+
+---
+
+### 🔹 Hands-On 3: Score Calculator App (Functional Component with Styling)
+- Created a new app `scorecalculatorapp`.
+- Created a functional component `CalculateScore` which:
+  - Accepts name, school, total, goal.
+  - Calculates and displays average score.
+- Applied external CSS styling using `mystyle.css`.
+
+---
+
+### 🔹 Hands-On 4: Blog App (Component Lifecycle)
+- Created an app `blogapp`.
+- Implemented:
+  - `componentDidMount()` for fetching posts from `https://jsonplaceholder.typicode.com/posts`
+  - `componentDidCatch()` for handling errors.
+- Displayed fetched posts in UI with titles and descriptions.
+
+---
+
+### 🔹 Hands-On 5: Cohort Dashboard Styling
+- Downloaded a pre-built React app.
+- Created a CSS Module: `CohortDetails.module.css`
+- Styled components using:
+  - CSS classes
+  - Inline styling (color change based on cohort status)
+- Applied conditional rendering based on status (`ongoing`, `completed`).
+
+---
+
+## ✅ Summary
+
+Week 6 provided a strong foundation in:
+- React basics
+- SPA vs MPA
+- Component creation and styling
+- Lifecycle methods and API calls
+
+With hands-on projects like **StudentApp**, **BlogApp**, and **ScoreCalculator**, this week successfully combined theory with practical experience in React.
+
+---
+
+
+
