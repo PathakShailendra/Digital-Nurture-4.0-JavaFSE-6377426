@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  font-family: Arial, sans-serif; 
+  padding: 2vw;
+}
+
+h1 {
+  font-size: 2rem;
+}
