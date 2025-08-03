@@ -589,5 +589,125 @@ With hands-on projects like **StudentApp**, **BlogApp**, and **ScoreCalculator**
 
 ---
 
+# 📘 Week 7 – Modern JavaScript (ES6) & React Concepts
+
+This week focused on exploring modern JavaScript features introduced in **ES6** and their seamless integration with **React** development. We deep-dived into the usage of `let`, `const`, arrow functions, destructuring, ES6 classes, and collections like `Map` and `Set`. We also applied these concepts practically in building React apps with **JSX**, **conditional rendering**, **events**, and **dynamic styling**.
+
+---
+
+### 🎯 Objectives Covered
+
+- Learn ES6 fundamentals like `let`, `const`, `arrow functions`, `destructuring`, `classes`, `inheritance`, `map()`, `set()`
+- Understand and implement JSX in React
+- Style React components using inline CSS
+- Master conditional rendering and list rendering
+- Handle events in React using **Synthetic Events**
+- Use React state and functions to control user interaction
+- Use multiple components, props, and event handling patterns
+
+---
+
+## 🧪 Hands-On Labs
+
+### 🔹 Hands-On 1: Cricket App (Using ES6 Features in React)
+
+📁 **App Name**: `cricketapp`
+
+**Components**:
+
+#### ✅ `ListofPlayers`
+- Used `map()` to display 11 players with scores
+- Filtered players with scores `< 70` using **arrow functions**
+
+#### ✅ `IndianPlayers`
+- Used **destructuring** to show Odd & Even team players
+- Merged `T20players` and `RanjiTrophyPlayers` arrays using **spread operator**
+
+🔄 Used a **flag variable** to toggle between the two components using **if-else conditional rendering**.
+
+---
+
+### 🔹 Hands-On 2: Office Space Rental App (JSX & Styling)
+
+📁 **App Name**: `officespacerentalapp`
+
+✅ Implemented:
+
+- Created heading using **JSX**
+- Displayed an office image using JSX attributes
+- Used an object to show office details (name, rent, address)
+- Looped over an array of office objects and rendered them using `map()`
+- Styled rent amount:
+  - If rent > ₹60,000 → Green
+  - Else → Red (using **inline styles**)
+
+---
+
+### 🔹 Hands-On 3: Event Handling App
+
+📁 **App Name**: `eventexamplesapp`
+
+**Features**:
+
+- Counter with **Increment/Decrement** buttons  
+  - `Increase` button triggered:
+    - A method to increment count
+    - A method to say hello
+
+- `Say Welcome` button — accepted a string parameter and invoked a method
+
+- Button with **Synthetic Event** that displayed `I was clicked` on press
+
+#### ✅ `CurrencyConvertor` Component
+- Took input in INR and converted it to Euro on clicking **Convert**
+- Handled form events and button click using `handleSubmit()`
+
+---
+
+### 🔹 Hands-On 4: Ticket Booking App (Conditional Rendering)
+
+📁 **App Name**: `ticketbookingapp`
+
+✅ Functionalities:
+
+- **Conditional rendering** based on login status
+- Guest users can browse flight details
+- Logged-in users can book tickets
+- Buttons for **Login/Logout** toggle between Guest and User views
+
+---
+
+### 🔹 Hands-On 5: Blogger App (Advanced Conditional Rendering)
+
+📁 **App Name**: `bloggerapp`
+
+**Components**:
+
+- `BookDetails`
+- `BlogDetails`
+- `CourseDetails`
+
+✅ Implemented:
+
+- Multiple approaches for **conditional rendering**:
+  - `if-else`
+  - `ternary operator`
+  - `logical && operator`
+- Displayed components dynamically based on user selection or status
+
+---
+
+## ✅ Summary
+
+Week 7 was all about mastering **modern JavaScript (ES6)** and its synergy with **React**:
+
+- 🔹 **JavaScript ES6**: Arrow functions, let/const, destructuring, spread, map/set, classes  
+- 🔹 **React JSX**: Syntax, rendering, styling  
+- 🔹 **Events**: Handling form events, synthetic events, parameterized functions  
+- 🔹 **Conditional Rendering**: Toggling components based on login or flags  
+- 🔹 **Hands-on Experience**: Through 5 unique apps like `cricketapp`, `eventexamplesapp`, and `ticketbookingapp`, we applied theoretical concepts in practical UI scenarios.
+
+This week strengthened **core JS + React skills** and provided hands-on experience necessary for building **interactive**, **dynamic**, and **real-world web applications**.
+
 
 
