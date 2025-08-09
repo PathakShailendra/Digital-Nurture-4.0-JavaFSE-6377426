@@ -715,7 +715,7 @@ This week focused on learning **Git fundamentals**, version control workflows, a
 
 ---
 
-### 🎯 Objectives Covered
+## 🎯 Objectives Covered
 
 - Learn essential Git commands:  
   `git init`, `git status`, `git add`, `git commit`, `git push`, `git pull`
@@ -746,81 +746,73 @@ This week focused on learning **Git fundamentals**, version control workflows, a
 - Pushed local changes to remote using:
   ```bash
   git push origin master
-🔹 Hands-On 2: Ignoring Files with .gitignore
+  ```
+
+---
+
+### 🔹 Hands-On 2: Ignoring Files with `.gitignore`
+
 ✅ Implemented:
+- Created `.log` files and a `log` folder
+- Configured `.gitignore` to ignore `.log` extensions and `log/` folder
+- Verified with `git status` that ignored files were not tracked
 
-Created .log files and a log folder
+---
 
-Configured .gitignore to ignore .log extensions and log/ folder
+### 🔹 Hands-On 3: Branching & Merging
 
-Verified with git status that ignored files were not tracked
-
-🔹 Hands-On 3: Branching & Merging
 ✅ Implemented:
+- Created a new branch `GitNewBranch`
+- Added files and committed changes to branch
+- Switched to `master` and merged changes from `GitNewBranch`
+- Used **P4Merge** to visualize differences before merging
+- Deleted merged branch and verified with:
+  ```bash
+  git branch -d GitNewBranch
+  ```
 
-Created a new branch GitNewBranch
+---
 
-Added files and committed changes to branch
+### 🔹 Hands-On 4: Merge Conflict Resolution
 
-Switched to master and merged changes from GitNewBranch
-
-Used P4Merge to visualize differences before merging
-
-Deleted merged branch and verified with:
-
-bash
-Copy
-Edit
-git branch -d GitNewBranch
-🔹 Hands-On 4: Merge Conflict Resolution
 ✅ Implemented:
+- Created a branch `GitWork` and added `hello.xml`
+- Made different changes to `hello.xml` in both `master` and `GitWork`
+- Merged branches to produce a merge conflict
+- Used **3-way merge tool in P4Merge** to resolve conflict
+- Added backup files to `.gitignore`
+- Committed final resolved code and deleted the branch
 
-Created a branch GitWork and added hello.xml
+---
 
-Made different changes to hello.xml in both master and GitWork
+### 🔹 Hands-On 5: Cleanup & Push to Remote
 
-Merged branches to produce a merge conflict
-
-Used 3-way merge tool in P4Merge to resolve conflict
-
-Added backup files to .gitignore
-
-Committed final resolved code and deleted the branch
-
-🔹 Hands-On 5: Cleanup & Push to Remote
 ✅ Implemented:
+- Verified `master` was in a clean state
+- Pulled latest changes from remote
+- Pushed pending changes to remote repository
+- Verified remote repository updates
 
-Verified master was in a clean state
+---
 
-Pulled latest changes from remote
+## 🔗 View the Project
 
-Pushed pending changes to remote repository
+You can check out the complete project here: [**GitDemo Repository on GitLab**](https://gitlab.com/pathakharsh813-group/GitDemo/-/tree/master?ref_type=heads)
 
-Verified remote repository updates
+---
 
-###  View the Project
+## ✅ Summary
 
-You can check out the complete project on GitLab:
-[**GitDemo Repository on GitLab**](https://gitlab.com/pathakharsh813-group/GitDemo/-/tree/master?ref_type=heads)
-
-
-✅ Summary
 Week 8 was dedicated to mastering Git for source code management:
 
-🔹 Git Basics: Init, status, add, commit, push, pull
+- 🔹 **Git Basics**: Init, status, add, commit, push, pull  
+- 🔹 **Editor Integration**: Setting Notepad++ as default  
+- 🔹 **Ignore Rules**: `.gitignore` to skip unwanted files/folders  
+- 🔹 **Branching & Merging**: Creating, switching, and merging branches  
+- 🔹 **Conflict Resolution**: Handling merge conflicts using visual tools  
+- 🔹 **Remote Sync**: Pushing and pulling with GitHub/GitLab  
+- 🔹 **Cleanup**: Deleting merged branches, keeping repository tidy  
 
-🔹 Editor Integration: Setting Notepad++ as default
-
-🔹 Ignore Rules: .gitignore to skip unwanted files/folders
-
-🔹 Branching & Merging: Creating, switching, and merging branches
-
-🔹 Conflict Resolution: Handling merge conflicts using visual tools
-
-🔹 Remote Sync: Pushing and pulling with GitHub/GitLab
-
-🔹 Cleanup: Deleting merged branches, keeping repository tidy
-
-By the end of this week, i have gained hands-on experience in version control workflows—from initial setup to advanced branching, merging, and conflict resolution—laying a strong foundation for collaborative development.
+By the end of this week, I have gained hands-on experience in version control workflows — from initial setup to advanced branching, merging, and conflict resolution — laying a strong foundation for collaborative development.
 
 
